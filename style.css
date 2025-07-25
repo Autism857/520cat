@@ -1,108 +1,108 @@
-body {
-    background-color: #f1d5da; /* 浅粉色 */
-    text-align: center;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+身体{
+背景色：#f1d5da/*浅蓝色*//*浅蓝色*//*浅蓝色*//*浅蓝色*/
+文本对齐:中心;
+字体系列:Arial, 无衬线;
+边缘: 0;
+    填充: 0;
+    显示: 弯曲;
+justify-content：中心；
+对齐项目:中心;
+高度: 100VH;
 }
 
-.container {
-    width: 90%; /* 适应手机屏幕宽度 */
-    max-width: 500px; /* 最大宽度限制 */
+.容器{
+    宽度: 90%; /* 适应手机屏幕宽度 */
+    最大宽度: 500PX; /* 最大宽度限制 */
 }
 
-#mainImage {
-    width: 100%; /* 图片宽度自适应容器 */
-    max-width: 200px; /* 最大宽度限制 */
-    transition: all 0.3s ease;
+#mainImage{
+    宽度: 100%; /* 图片宽度自适应容器 */
+    最大宽度: 200PX; /* 最大宽度限制 */
+    过渡: 所有 0.3s 缓解;
 }
 
-h1 {
-    font-size: 5vw; /* 字体大小根据视口宽度变化 */
-    color: #68495b;
-    margin: 20px 0; /* 增加上下间距 */
+H1{
+    字体大小: 5VW; /* 字体大小根据视口宽度变化 */
+颜色：#68495b；
+边缘: 20PX 0; /* 增加上下间距 */
 }
 
-button {
-    font-size: 4vw; /* 字体大小根据视口宽度变化 */
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 10px;
-    transition: all 0.3s ease;
+按钮{
+    字体大小: 4VW; /* 字体大小根据视口宽度变化 */
+    填充: 10PX 20PX;
+    边境: 没有一个;
+    边界半径: 5PX;
+    光标: 指针;
+余量：10px；边缘: 10PX;
+    过渡: 所有 0.3s 缓解;
 }
 
-#yes {
-    background-color: #d4818e; /* 粉色 */
-    color: white;
+#yes{
+背景色：#d4818e；/* 粉色 */
+颜色:白色的;
 }
 
-#no {
-    background-color: #6784b1; /* 蓝色 */
-    color: white;
-    position: relative;
+#no{
+背景色：#6784b1；/* 蓝色 */
+颜色:白色的;
+位置:相对的;
 }
 
-.yes-screen {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #ffdae0; /* 粉色 */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.是-屏幕{
+    位置: 确定的;
+    顶端: 0;
+    左: 0;
+    宽度: 100VW;
+    高度: 100VH;
+背景色：#ffdae0；/* 蓝色 */
+显示:弯曲;
+    挠曲方向: 柱;
+    对齐项目: 中心;
+    justify-content: 中心;
 }
 
-.yes-text {
-    font-size: 7vw; /* 字体大小根据视口宽度变化 */
+.yes-text{
+    字体大小: 7VW; /* 字体大小根据视口宽度变化 */
 }
 
-.yes-image {
-    width: 50%; /* 图片宽度自适应容器 */
-    max-width: 300px; /* 最大宽度限制 */
+.是-图像{
+    宽度: 50%; /* 图片宽度自适应容器 */
+    最大宽度: 300PX; /* 最大宽度限制 */
 }
 
 /* 电脑端样式优化 */
-@media (min-width: 768px) {
-    body {
-        display: block;
+@介质(最小宽度: 768PX) {
+身体{
+        显示: 块;
     }
 
-    .container {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: auto;
-        max-width: none;
+.容器{
+        位置: 绝对的;
+        顶端: 50%;
+        左: 50%;
+        改变: 翻译(-50%, -50%);
+        宽度: 自动;
+        最大宽度: 没有一个;
     }
 
-    #mainImage {
-        width: 200px; /* 固定图片宽度 */
+#mainImage{
+        宽度: 200PX; /* 固定图片宽度 */
     }
 
-    h1 {
-        font-size: 28px; /* 固定字体大小 */
-        margin: 20px 0;
+H1{
+        字体大小: 28PX; /* 固定字体大小 */
+        边缘: 20PX 0;
     }
 
-    button {
-        font-size: 18px; /* 固定字体大小 */
+按钮{
+        字体大小: 18PX; /* 固定字体大小 */
     }
 
-    .yes-text {
-        font-size: 36px; /* 固定字体大小 */
+.yes-text{
+        字体大小: 36PX; /* 固定字体大小 */
     }
 
-    .yes-image {
-        width: 300px; /* 固定图片宽度 */
+.是-图像{
+        宽度: 300px; /* 固定图片宽度 */
     }
 }
